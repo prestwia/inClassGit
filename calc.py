@@ -9,7 +9,11 @@ def calc(a, b):
     results.append(difference)
     results.append(multiply)
     results.append(divide)
-    
-    
 
+    totalSum = 0
+    for i in results:
+        totalSum += i
+    
+    
+    
 
