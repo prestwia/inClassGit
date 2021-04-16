@@ -21,6 +21,7 @@ def passGen(a):
             password += random.choice(punctuation)
         elif charType == 4:
             password += whitespace
-    print(password)
 
-passGen(10)       
+    return password
+
+   
