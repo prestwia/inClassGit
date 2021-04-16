@@ -1,4 +1,4 @@
  def divisors(a):
-     
+     divisors = []
     
             
