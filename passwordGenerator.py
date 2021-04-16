@@ -8,14 +8,15 @@ def passGen(a):
     digits = string.digits
     punctuation = string.punctuation
 
+    password = ""
 
-    charType = random.randint(1, 4)
-    if charType == 1:
-        print(random.choice(letters))
-    elif charType == 2:
-        print(random.choice(digits))
-    elif charType == 3:
-        print(random.choice(punctuation))
+    for i in range(a):
+        charType = random.randint(1, 3)
+        if charType == 1:
+            password += random.choice(letters)
+        elif charType == 2:
+            password += random.choice(digits)
+        elif charType == 3:
+            password += random.choice(punctuation)
 
-
-passGen(1)
+        
